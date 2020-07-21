@@ -1,0 +1,86 @@
+body{
+    margin:0;
+    font-family: sans-serif;
+    background-image: url("https://s1.1zoom.me/b4953/41/Retro_Yellow_Telephone_Colored_background_570313_1366x768.jpg");
+}
+
+#page-heading{
+    text-align: center;
+    margin-top: 25px;
+    color:rgb(204, 41, 41);
+    font-size: 35px;
+    margin-left: 30px;
+}
+
+#list-1{
+    list-style: none;
+    text-align: center;
+}
+
+#list-items{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin: auto;
+    width:50%;
+    border: 1px solid rgb(43, 43, 107);
+    border-radius: 10px;
+    background-color:rgb(43, 43, 107);
+    margin-bottom: 2px;
+    padding: 5px;
+    height: 40px;
+}
+
+#list-items:hover{
+    background-color: teal;
+    transition: 0.5s ease-in-out;
+    transform: scale(1.1);
+}
+#name{
+    display: inline-block;
+    color: white;
+    font-family: sans-serif;
+    margin-top: 10px;
+}
+
+#phone{
+    display: inline-block;
+    color: rgb(238, 235, 235);
+    font-family: sans-serif;
+    margin-top: 10px;
+}
+
+#form-1{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:49%;
+    margin: auto;
+    padding-left: 40px;
+}
+
+#button{
+    background-color: rgb(141, 231, 231);
+    border-color:rgb(141, 231, 231);
+    border-style: outset;
+    border-radius: 2px;
+    color: rgb(56, 37, 37);
+    font-weight: 600;
+    font-size: 12px;
+    font-family: sans-serif;
+    padding: 3px;
+    width: 15%;
+}
+
+input{
+    border-style: outset;
+    font-family: sans-serif;
+    width:40%;
+}
+
+.delete-icon{
+    color:white;
+    background-color: red;
+    margin-left: 20px;
+}
