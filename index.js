@@ -12,14 +12,14 @@ app.set('views', path.join(__dirname, 'views'));
 app.use(express.urlencoded());
 app.use(express.static('assets'));
 
-// //middleware1
+// middleware
 // app.use(function(req, res, next){
-//    req.myName = "Sarvesh";
+//    req.myName = "Suvendu";
 //   // console.log('middleware 1 called');
 //    next();
 // });
 
-// //middleware2
+// middleware 2
 // app.use(function(req, res, next){
 //     console.log("My name from MW2", req.myName);
 //    // console.log('middleware 2 called');
@@ -28,18 +28,18 @@ app.use(express.static('assets'));
 
 var contactList = [
    {
-       name: "Sarvesh",
-       phone: "7679698799"
+       name: "Suvendu",
+       phone: "9547332282"
    },
 
    {
-       name: "Rohit",
-       phone: "5667576976"
+       name: "BatMan",
+       phone: "9874783447"
    },
 
    {
-      name: "Sachin",
-      phone: "6756566768"
+      name: "Black Panther",
+      phone: "7583747951"
    }
 
 ]
