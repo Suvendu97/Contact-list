@@ -82,7 +82,7 @@ app.post('/create-contact', function(req, res){
              console.log('error in creating a contact!');
              return;
             }
-            console.log('********', newContact);
+            console.log('New Contact added : ', newContact);
             return res.redirect('back');
      });
 
@@ -99,6 +99,7 @@ app.get('/delete-contact', function(req, res){
             console.log('error in deleting an object from database');
             return;
         }
+        console.log('Contact deleted : ')
         return res.redirect('back');
     });
 
